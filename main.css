@@ -1,0 +1,40 @@
+html {
+    margin:0;
+    height:100%;
+}
+
+body{
+    margin:0;
+    height:100%;
+    background-image: url("teddi.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding:auto;
+}
+
+.main{
+    margin: auto;
+    width: 75%;
+    height: 90%;
+    background:rgba(241, 121, 225, 0.822);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(113,54,0);
+    border-width: 10px;
+
+}
+
+.space{
+    width: 100%;
+    height: 5%;
+    
+}
+
+.textspace{
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-size: 65px;
+}
