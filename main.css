@@ -1,33 +1,38 @@
 html {
     margin:0;
     height:100%;
+    font-size:1vw; 
 }
+
 
 body{
     margin:0;
     height:100%;
-    background-image: url("teddi.png");
+    background-image: url("BedroomNight.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     padding:auto;
+    overflow: scroll;
 }
 
 .main{
     margin: auto;
     width: 75%;
     height: 90%;
-    background:rgba(241, 121, 225, 0.822);
+
+}
+
+.test{
     border-radius: 8px;
     border-style: solid;
-    border-color: rgb(113,54,0);
-    border-width: 10px;
-
+    border-color: red;
+    border-width: 5px;
 }
 
 .space{
     width: 100%;
-    height: 5%;
-    
+    height: 2%;
 }
 
 .textspace{
@@ -37,4 +42,31 @@ body{
 
 h1{
     font-size: 65px;
+}
+
+.immagine{
+    width: auto;
+    height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.testo{
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #8A4C34;
+    border-width: 5px;
+    background-color: #ED8BA7;
+}
+
+.titolo{
+    color:#462417;
+}
+
+
+#twitch>iframe{
+    margin: auto;
+    display: block;
+  overflow: auto;
+
 }

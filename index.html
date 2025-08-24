@@ -2,20 +2,46 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Teddi demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     </head>
     <body>
         <div class="space"></div>
-        <div class="main">
-            <br>
-            <div class="textspace">
-                <h1>Just Goobis</h1>
+        <div class="main container">
+            <div class="row h-50">
+                <div class="col-1">
+                    
+                </div>
+                <div class="col h-100 p-auto justify-content-center">
+                    <div class="h-100 w-100">
+                        <img src="TeddiLoveEyes.png" class="immagine">
+                    </div>
+                </div>
+                <div class="col-1">
+                    
+                </div>
             </div>
-            <br>
-            <div class="textspace">
-                <img src="image2.jpg" width="30%">
+            <div class="row align-items-center h-50 testo">
+
+                <div class="col h-100">
+                    <div class="space"></div>
+                    <div class="row h-25">
+                        <div class="col justify-content-center text-center ">
+                            <h1 class="fw-bold titolo">Come and watch the lovely Teddi Sundae!</h1>
+                        </div>
+                    </div>
+                    <div class="row h-50 ratio ratio-16x9">
+                        <div id="twitch">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+        <script src="scripts.js"></script>
     </body>
 </html>
-
 
